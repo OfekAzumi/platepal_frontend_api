@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { hours } from './employeeSlice';
 
-const MY_SERVER = 'http://127.0.0.1:8000/workers/';
+const MY_SERVER = 'https://platepal-backend-render.onrender.com/workers/';
 
 export function Get_Employees() {
   return axios.get(MY_SERVER);

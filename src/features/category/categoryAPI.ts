@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const MY_SERVER = 'http://127.0.0.1:8000/categories/';
+const MY_SERVER = 'https://platepal-backend-render.onrender.com/categories/';
 
 export function Get_Categories() {
   return axios.get(MY_SERVER);

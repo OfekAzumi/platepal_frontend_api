@@ -1,9 +1,9 @@
 import axios from 'axios';
 import { orderDetails } from './orderSlice';
 
-const MY_SERVER = 'http://127.0.0.1:8000/orders/';
-const ORDER_DETAILS = 'http://127.0.0.1:8000/orderdetails/'
-const PAYPAL = 'http://127.0.0.1:8000/api/payment/'
+const MY_SERVER = 'https://platepal-backend-render.onrender.com/orders/';
+const ORDER_DETAILS = 'https://platepal-backend-render.onrender.com/orderdetails/'
+const PAYPAL = 'https://platepal-backend-render.onrender.com/api/payment/'
 
 
 export function Get_Orders() {

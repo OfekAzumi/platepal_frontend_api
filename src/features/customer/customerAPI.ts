@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const MY_SERVER = 'http://127.0.0.1:8000/customers/';
-const MY_SERVER_ORDERS = 'http://127.0.0.1:8000/orders/';
+const MY_SERVER = 'https://platepal-backend-render.onrender.com/customers/';
+const MY_SERVER_ORDERS = 'https://platepal-backend-render.onrender.com/orders/';
 
 
 export function Get_Customers() {
