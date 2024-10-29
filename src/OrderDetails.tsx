@@ -61,7 +61,8 @@ const OrderDetails = () => {
 
 
     const LocalStorageOrderUnicode = () => {
-        localStorage.setItem('unicode', String((orders[orders.length - 1].unicode) + 1))
+        orders.length.toString().includes('0') ? localStorage.setItem('unicode', '10000') : localStorage.setItem('unicode', String((orders[orders.length - 1].unicode) + 1))
+        
     }
 
     // add data refresh and toast display
